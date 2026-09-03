@@ -2,7 +2,7 @@
 
 **Full-Stack Infrastructure Engineer | Enterprise LLM & Agentic Systems | 9+ Years | Multi-Tenant Cloud & Local AI**
 
-*Architecting production-grade AI agent systems, enterprise data pipelines, and automated infrastructure. From cloud databases to local Ollama homelabs. From zero-token-cost automation to ₱20,998/mo MRR SaaS platforms.*
+*Architecting production-grade AI agent systems, enterprise data pipelines, and automated infrastructure. From cloud databases to local Ollama homelabs to full-stack SME applications.*
 
 ---
 
@@ -80,8 +80,7 @@ Live Site: https://{slug}.nextgenai.ph (Cloudflare Pages + D1)
 
 **Impact:** 
 - **48x Deployment Speedup:** 4 hours → 5 minutes
-- **₱20,998/mo MRR** from 3 enterprise clients
-- **18 barangays** served via CSR flagship
+- **4 production SaaS clients** deployed across diverse verticals
 - **99.9% uptime** (Cloudflare infrastructure)
 
 ---
@@ -112,10 +111,10 @@ Live Site: https://{slug}.nextgenai.ph (Cloudflare Pages + D1)
 
 | Platform | Purpose | Tech Stack | Business Model | Status |
 |----------|---------|-----------|-----------------|--------|
-| **ERBC Cockpit** | Real estate broker portal, lead pipeline, analytics | Astro 59%, TS 40% | ₱1M investment, ₱5,999/mo + 10% equity | **Production** |
-| **Barangay Dila** | 24/7 AI chatbot + admin portal + Smart Guardian CCTV | Astro 58%, TS 39% | CSR flagship (18 barangays) | **Production** |
+| **ERBC Cockpit** | Real estate broker portal, lead pipeline, analytics | Astro 59%, TS 40% | ₱1M investment, ₱5,999/mo + equity | **Production** |
+| **Barangay Dila** | 24/7 AI chatbot + admin portal + Smart Guardian CCTV | Astro 58%, TS 39% | CSR community initiative | **Production** |
 | **IMC Laboratory** | Metrology calibration tracking + ALCOA+ compliance | TS 76%, Astro 17% | ₱14,999/mo enterprise SaaS | **Production** |
-| **Meridian School** | Student enrollment + RFID attendance + SMS alerts | Astro, TS | Barter + 80% SMS revenue share | **Production** |
+| **Meridian School** | Student enrollment + RFID attendance + SMS alerts | Astro, TS | Barter + revenue share model | **Production** |
 
 ---
 
@@ -149,8 +148,7 @@ Live Site: https://{slug}.nextgenai.ph (Cloudflare Pages + D1)
 |--------|-------|---------|
 | **Experience** | 9+ years | Systems architecture, cloud databases, enterprise AI |
 | **Deployment Speedup** | 48x | 4 hours → 5 minutes (full-stack SME apps) |
-| **Monthly Recurring Revenue** | ₱20,998 | 3 enterprise SaaS clients (ERBC, IMC, Meridian) |
-| **Communities Served** | 18 barangays | CSR flagship (Barangay Dila) |
+| **Production Clients** | 4 | ERBC, Dila, IMC, Meridian across diverse verticals |
 | **Agent Latency** | <2.5s | BigQuery analytics agent query time |
 | **Webhook Speed-to-Lead** | <3.8s | Viber/SMS/WhatsApp notifications |
 | **Build Test Suite** | 142 tests | Automated quality gates + Lighthouse CI ≥95 |
@@ -167,7 +165,7 @@ Live Site: https://{slug}.nextgenai.ph (Cloudflare Pages + D1)
 **Founder & CTO/CMO • NextGen AI Solutions (2024 – Present)**
 - Architected 4-phase autonomous SME AI factory
 - Built enterprise BigQuery agent + LangGraph pipeline
-- Deployed 4 production SaaS clients (₱20,998/mo MRR)
+- Deployed 4 production SaaS clients across verticals
 - Managed Mac Studio M2 Ultra homelab infrastructure
 
 **IT & Digital Marketing Admin • Mariz Ventures Corporation (Lynderm Facial Center & Day Spa) (Jan 2020 – Dec 2020)**
@@ -231,7 +229,7 @@ For architecture walkthroughs, deployment patterns, and technical deep-dives, se
 - `architecture.md` — System design (4-Phase factory, BigQuery agent, Terraform, D1+Pages)
 - `client-case-studies.md` — Business impact & technical details per client
 - `tech-stack.md` — Complete technology breakdown
-- `enterprise-patterns.md` — Compliance, security, and scaling patterns (coming soon)
+- `enterprise-patterns.md` — Compliance, security, and scaling patterns
 
 ---
 
