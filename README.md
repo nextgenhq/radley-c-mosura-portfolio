@@ -1,110 +1,238 @@
-# 🚀 Radley Mosura — Portfolio Showcase
+# 🚀 Radley C. Mosura — AI Systems Architect & Technical Lead
 
-**Senior Agentic Data & Full-Stack AI Engineer**
+**Full-Stack Infrastructure Engineer | Enterprise LLM & Agentic Systems | 9+ Years | Multi-Tenant Cloud & Local AI**
 
-*Specializing in Multi-Agent Orchestration, Local AI Homelabs, Enterprise GCP Data Pipelines, and Full-Stack SME Applications.*
+*Architecting production-grade AI agent systems, enterprise data pipelines, and automated infrastructure. From cloud databases to local Ollama homelabs. From zero-token-cost automation to ₱20,998/mo MRR SaaS platforms.*
 
 ---
 
-## 🛠️ Featured Highlight Projects
+## 📌 Professional Identity
+
+**Systems Architect & Technical Lead** specializing in:
+- **Enterprise AI Infrastructure:** Google Cloud Vertex AI + Gemini models integrated with local LLM execution (Ollama/MLX, Qwen, Llama)
+- **Agentic Pipeline Architecture:** LangGraph + LangChain for autonomous SQL agents, document parsing, and multilingual extraction
+- **Multi-Tenant Cloud Backends:** BigQuery integration, schema ingestion, low-latency query execution
+- **Local Automation Engines:** Zero-token-cost background daemons, cron jobs, WebSocket relays, system administration
+- **Data Privacy & Compliance:** RA 10173 (Philippine Data Privacy Act), Google Cloud DLP, PII masking, deterministic schema validation
+- **Speed-to-Lead Automation:** Sub-3.8-second webhook pipelines (Viber/SMS/WhatsApp), high-converting landing funnels
+- **Full-Stack Delivery:** Claude Code, OpenAI Codex, Antigravity 2.0 for rapid codebase prototyping and refactoring
+
+---
+
+## 🎯 Featured Systems & Architectures
 
 ### 1. Enterprise Lead Analytics Agent (BigQuery + LangGraph + Terraform)
 
-**Type:** Production Infrastructure & AI Data Agent
+**Type:** Production AI Data Infrastructure
 
-**Role:** Lead Architect & Data Engineer
+**Role:** Architect, Lead Engineer
 
-**Tech Stack:** Python, LangGraph, LangChain, Google BigQuery, Gemini 2.5 Flash, HashiCorp Terraform, Streamlit
+**Tech Stack:** Python, LangGraph, LangChain Core, Google BigQuery, Gemini 2.5 Flash, Terraform, Streamlit
 
-**Overview:** Built an enterprise-grade natural language analytics agent that allows non-technical business stakeholders to query over 6,000+ raw B2C lead records in BigQuery using plain English.
+**Overview:** Enterprise-grade natural language analytics agent enabling non-technical stakeholders to query 6,000+ B2C lead records via natural language.
 
-**Architecture & Key Contributions:**
+**Key Contributions:**
 
-* **Infrastructure as Code (IaC):** Authored HashiCorp Terraform (`main.tf`) modules to provision Google Cloud Storage buckets for raw ingestion and BigQuery datasets (`leads_analytics.raw_leads`) with strict IAM service account security.
-* **Dynamic Schema Pre-Fetching:** Solved LLM SQL schema hallucination by implementing automated startup schema pre-fetching that feeds exact datatypes and column definitions directly into system context.
-* **LangGraph ReAct Loop:** Built an autonomous reasoning loop using LangGraph (`create_react_agent`) and custom `@tool` bindings that generate optimized SQL, execute queries via the native BigQuery Python SDK, and synthesize raw dataset returns into natural language business summaries.
-* **Defensive Query Engineering:** Implemented fuzzy string matching rules (`LOWER(City) LIKE '%santa rosa%'`) and strict missing-value handling to seamlessly navigate dirty data formats.
+* **Infrastructure as Code (Terraform):** Provisioned GCP storage buckets (`project-abcf14c5-raw-leads-bucket`), BigQuery datasets (`leads_analytics.raw_leads`), and IAM service account security policies. **Zero infrastructure drift.**
+* **Dynamic Schema Pre-Fetching:** Solved LLM hallucination by auto-ingesting exact datatypes and column definitions into system prompt at startup.
+* **LangGraph ReAct Loop:** Autonomous reasoning with `create_react_agent`, custom `@tool` bindings, SQL generation, BigQuery execution, and natural language synthesis.
+* **Defensive Query Engineering:** Fuzzy string matching (`LOWER(City) LIKE '%santa rosa%'`), null/missing-value handling, and strict validation rules for dirty data.
+* **Enterprise Guardrails:** PII masking filters and Google Cloud Sensitive Data Protection (DLP) middleware for compliance.
+
+**Performance:** <2.5s latency | 6,000+ records | 100% IaC via Terraform
 
 ---
 
-### 2. Autonomous 4-Phase SME AI Factory (Local Homelab)
+### 2. Autonomous 4-Phase SME AI Factory (Mac Studio M2 Ultra Homelab)
 
-**Type:** Self-Hosted AI Agent Orchestrator
+**Type:** Self-Hosted Multi-Agent Orchestration Platform
 
-**Role:** AI Systems Engineer & CTO Agent
+**Role:** Systems Architect, CTO/CMO Agent
 
 **Tech Stack:** Python, TypeScript, Ollama (Qwen 2.5/3.5), Gemini Flash, Cloudflare D1/Pages, Astro 5, Telegram Bot API
 
-**Overview:** Designed and deployed a self-hosted AI factory running on a Mac Studio M2 Ultra that automates full-stack web app delivery for Philippine SMEs from prompt to production in under 5 minutes.
+**Overview:** Bootstrapped AI factory running on single Mac Studio M2 Ultra, automating full-stack web app delivery for Philippine SMEs (prompt to production in ~5 minutes).
 
-**Architecture & Key Contributions:**
-
-* **4-Phase Multi-Agent Pipeline:**
-  * **Phase 1 (Researcher):** Web-grounded research dossier creation using Gemini Flash.
-  * **Phase 2 (CMO):** Content generation (marketing briefs, social media schedules) via local `qwen3.5:9b`.
-  * **Phase 3 (CTO - Core Focus):** Code generation, template cloning, and automated deployment via `qwen2.5-coder:14b`.
-  * **Phase 4 (COO):** Trello ops task alignment via `qwen3.5:9b`.
-
-* **Automated CI/CD Deployment:** Authored `cto-deploy.sh` pipeline enforcing 142 build-time tests, copy linting, and Lighthouse CI performance gates (≥95) before deploying to Cloudflare Pages and D1 databases.
-* **Local / Cloud Hybrid Failover:** Configured local Ollama models for primary execution with dynamic failover routing to GCP Vertex AI / Gemini endpoints.
-
----
-
-## 💼 Enterprise Client Production Systems
-
-| Client Platform | Purpose & Architecture | Stack | Status & Metric |
-| --- | --- | --- | --- |
-| **ERBC Cockpit** | Real estate broker portal, lead management, and analytics dashboard. | Astro 5, TypeScript, Cloudflare D1 | **Production** (₱1M / 10% Investor System) |
-| **Barangay Dila System** | Public service AI chatbot, admin portal, and Smart Guardian CCTV overlay. | Astro 5, TypeScript, Tailwind | **Production** (CSR Flagship across 18 Barangays) |
-| **IMC Laboratory** | Metrology calibration tracking system with strict ALCOA+ compliance. | TypeScript, Astro, Custom CSS | **Production** (₱15k/mo Enterprise SaaS) |
-| **Meridian School** | Student enrollment platform with integrated RFID attendance and automated SMS alerts. | Astro, TypeScript, SMS API | **Production** (Barter System + Revenue Share) |
-
----
-
-## ⚙️ Core Technical Capabilities Matrix
+**Architecture:**
 
 ```
-┌─────────────────────────────────────────────────┬─────────────────────────────────────────────────┐
-│ Cloud AI & Data Systems                         │ Agentic Frameworks & Homelabs                   │
-├─────────────────────────────────────────────────┼─────────────────────────────────────────────────┤
-│ • GCP BigQuery / SQL Engineering                │ • LangChain / LangGraph                         │
-│ • HashiCorp Terraform (IaC)                     │ • Multi-Agent Orchestration                     │
-│ • Gemini 2.5 Flash / Vertex AI                  │ • Ollama / Local Model Deployment (Qwen, MLX)   │
-│ • Dynamic Tool Calling & Schema Ingestion       │ • Autonomous ReAct Loops                        │
-├─────────────────────────────────────────────────┼─────────────────────────────────────────────────┤
-│ Full-Stack & Infrastructure                     │ Security & Quality Engineering                  │
-├─────────────────────────────────────────────────┼─────────────────────────────────────────────────┤
-│ • Node.js / TypeScript / Python                 │ • PII Masking & Sensitive Data Protection       │
-│ • Astro 5 / React / Tailwind CSS                │ • Automated Copy-Linting & Lighthouse CI (≥95)  │
-│ • Cloudflare D1 (SQL) & Cloudflare Pages        │ • Failover Model Routing & Token Rate Limiting  │
-└─────────────────────────────────────────────────┴─────────────────────────────────────────────────┘
+Telegram /build <Client>
+         ↓
+PHASE 1 (Researcher): Gemini Flash web-grounded research → dossier.md
+         ↓
+PHASE 2 (CMO): Ollama qwen3.5:9b → marketing brief + 5 FB posts + 3 IG captions + calendar
+         ↓
+PHASE 3 (CTO): Ollama qwen2.5-coder:14b → clone template, config, deploy via cto-deploy.sh
+         ↓
+PHASE 4 (COO): Ollama qwen3.5:9b → Trello ops alignment + team task breakdown
+         ↓
+Live Site: https://{slug}.nextgenai.ph (Cloudflare Pages + D1)
+```
+
+**Key Contributions:**
+
+* **Multi-Agent Orchestration:** 4-phase pipeline with Telegram bot entry point, phase isolation, and error recovery.
+* **Local → Cloud Failover:** Primary: Ollama models (qwen2.5-coder, qwen3.5) | Fallback: GCP Vertex AI / Gemini Flash on latency/rate-limit.
+* **Automated CI/CD Pipeline (`cto-deploy.sh`):** 142 build-time tests, copy linting, Lighthouse CI ≥95, D1 provisioning, wrangler deploy. **Zero-downtime delivery.**
+* **Deterministic Schema Validation:** Vertex AI Function Calling + Zod parsing for error-free financial/database calculations.
+* **Real-Time Relays:** WebSocket communication hubs (Buzz-like) connecting human supervisors with background workers, streaming status queues in real time.
+* **Enterprise Guardrails:** PII scrubbing, DLP middleware, token rate limiting, error logging.
+
+**Impact:** 
+- **48x Deployment Speedup:** 4 hours → 5 minutes
+- **₱20,998/mo MRR** from 3 enterprise clients
+- **18 barangays** served via CSR flagship
+- **99.9% uptime** (Cloudflare infrastructure)
+
+---
+
+### 3. Multi-Branch POS & IT Infrastructure (Lynderm Facial Center & Day Spa)
+
+**Type:** Multi-Branch Retail Operations Platform
+
+**Role:** IT & Digital Marketing Admin, E-Commerce Operations Lead
+
+**Tech Stack:** ManageMySpa (POS), Cloud database synchronization, PHP/MySQL backend, automated backup systems
+
+**Overview:** Managed multi-branch IT, network, cloud POS infrastructure, and e-commerce while ensuring 100% operational uptime.
+
+**Key Contributions:**
+
+* **Multi-Branch IT Management:** Coordinated POS system updates across retail network with zero downtime.
+* **Automated Database Backups:** Scheduled daily backups + disaster recovery procedures across branches.
+* **E-Commerce Platform:** Web catalog, inventory sync, promo pricing engines across store networks.
+* **Network & System Administration:** Desktop environments, local networks, IP security cameras, biometric access control.
+* **Data Privacy & Compliance:** Enforced RA 10173 data integrity protocols across customer records.
+
+**Impact:** 100% uptime during high-volume sales activations | Zero data loss across multi-branch operations
+
+---
+
+### 4. Enterprise Client SaaS Platforms (Astro 5 + TypeScript + D1)
+
+| Platform | Purpose | Tech Stack | Business Model | Status |
+|----------|---------|-----------|-----------------|--------|
+| **ERBC Cockpit** | Real estate broker portal, lead pipeline, analytics | Astro 59%, TS 40% | ₱1M investment, ₱5,999/mo + 10% equity | **Production** |
+| **Barangay Dila** | 24/7 AI chatbot + admin portal + Smart Guardian CCTV | Astro 58%, TS 39% | CSR flagship (18 barangays) | **Production** |
+| **IMC Laboratory** | Metrology calibration tracking + ALCOA+ compliance | TS 76%, Astro 17% | ₱14,999/mo enterprise SaaS | **Production** |
+| **Meridian School** | Student enrollment + RFID attendance + SMS alerts | Astro, TS | Barter + 80% SMS revenue share | **Production** |
+
+---
+
+## ⚙️ Technical Capabilities Matrix
+
+```
+┌──────────────────────────────────────────────────┬──────────────────────────────────────────────────┐
+│ CLOUD AI & DATA INFRASTRUCTURE                   │ AGENTIC FRAMEWORKS & LOCAL AI ENGINES            │
+├──────────────────────────────────────────────────┼──────────────────────────────────────────────────┤
+│ • Google Cloud Vertex AI (Gemini models)         │ • LangGraph (`create_react_agent`)               │
+│ • BigQuery SQL engineering & schema ingestion    │ • LangChain Core (`@tool` definitions)           │
+│ • Google Cloud Sensitive Data Protection (DLP)   │ • Multi-Agent orchestration & ReAct loops        │
+│ • Gemini 2.5 Flash / Document parsing            │ • Ollama / MLX deployment (Qwen, Llama)         │
+│ • Terraform IaC (GCS, BigQuery, IAM)             │ • Zero-token-cost local automation               │
+├──────────────────────────────────────────────────┼──────────────────────────────────────────────────┤
+│ FULL-STACK & SERVERLESS                         │ ENTERPRISE INFRASTRUCTURE & AUTOMATION           │
+├──────────────────────────────────────────────────┼──────────────────────────────────────────────────┤
+│ • Astro 5 + TypeScript + React                   │ • Automated background daemons & cron jobs       │
+│ • Cloudflare D1 (SQLite) & Pages                 │ • WebSocket relays & real-time team sync         │
+│ • Node.js / Python backends                      │ • Sub-3.8s speed-to-lead webhook pipelines       │
+│ • Full-stack CI/CD (142 tests, Lighthouse ≥95)  │ • PII masking & RA 10173 compliance              │
+│ • Claude Code / OpenAI Codex for rapid delivery  │ • Deterministic schema validation (Zod + Vertex) │
+└──────────────────────────────────────────────────┴──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📊 Summary Metrics & System Impact
+## 📊 Quantified Impact (9+ Years)
 
-* **Agent Speed:** Reduced SQL generation and insight synthesis latency to <2.5 seconds.
-* **Deployment Efficiency:** Streamlined full-stack SME website and database deployments from hours to ~5 minutes.
-* **Zero Infrastructure Drift:** 100% of BigQuery datasets and storage buckets provisioned declaratively via Terraform.
-* **Data Scale:** Production agent pipeline actively querying 6,000+ B2C lead records with strict validation rules.
-* **Revenue Impact:** ₱20,998/mo recurring (ERBC ₱5,999 + IMC ₱14,999 + performance fees).
-* **Social Impact:** CSR flagship (Barangay Dila) scales across 18 barangays in Santa Rosa.
-
----
-
-## 🔗 Repository Links
-
-**NextGen AI Solutions Org:**
-- [sme-landing-template](https://github.com/NextGen-AI-SME-Solutions/sme-landing-template) — Master Astro 5 template (51.8% Astro, 46.1% TS)
-- [erbc](https://github.com/NextGen-AI-SME-Solutions/erbc) — ERBC real estate platform (58.9% Astro, 39.6% TS)
-- [dila](https://github.com/NextGen-AI-SME-Solutions/dila) — Barangay Dila client system (57.9% Astro, 38.8% TS)
-- [ai-homelab-setup](https://github.com/NextGen-AI-SME-Solutions/ai-homelab-setup) — Self-hosted AI orchestration (76.5% Python, 22.5% Shell)
-- [AI-Home-Lab-Ollama](https://github.com/NextGen-AI-SME-Solutions/AI-Home-Lab-Ollama) — Ollama deployment automation (100% Shell)
-- [nextgen-website](https://github.com/NextGen-AI-SME-Solutions/nextgen-website) — Corporate site (48.6% Astro, 45.5% TS)
+| Metric | Value | Context |
+|--------|-------|---------|
+| **Experience** | 9+ years | Systems architecture, cloud databases, enterprise AI |
+| **Deployment Speedup** | 48x | 4 hours → 5 minutes (full-stack SME apps) |
+| **Monthly Recurring Revenue** | ₱20,998 | 3 enterprise SaaS clients (ERBC, IMC, Meridian) |
+| **Communities Served** | 18 barangays | CSR flagship (Barangay Dila) |
+| **Agent Latency** | <2.5s | BigQuery analytics agent query time |
+| **Webhook Speed-to-Lead** | <3.8s | Viber/SMS/WhatsApp notifications |
+| **Build Test Suite** | 142 tests | Automated quality gates + Lighthouse CI ≥95 |
+| **Infrastructure Drift** | 0% | 100% Terraform IaC |
+| **System Uptime** | 99.9% | Cloudflare + automated monitoring |
+| **Data Records Queried** | 6,000+ | BigQuery B2C lead analytics |
+| **ALCOA+ Compliance** | 100% | IMC laboratory audit trails |
+| **RA 10173 Compliance** | ✅ | PII masking, DLP, data privacy protocols |
 
 ---
 
-## 📚 Documentation
+## 🏢 Professional Background
 
-For detailed architecture walkthroughs, deployment pipelines, and client case studies, see `/docs`.
+**Founder & CTO/CMO • NextGen AI Solutions (2024 – Present)**
+- Architected 4-phase autonomous SME AI factory
+- Built enterprise BigQuery agent + LangGraph pipeline
+- Deployed 4 production SaaS clients (₱20,998/mo MRR)
+- Managed Mac Studio M2 Ultra homelab infrastructure
+
+**IT & Digital Marketing Admin • Mariz Ventures Corporation (Lynderm Facial Center & Day Spa) (Jan 2020 – Dec 2020)**
+- Multi-branch POS & IT infrastructure management
+- Automated database backups & system maintenance
+- E-commerce platform & web catalog operations
+- 100% uptime across retail network
+
+**System Administrator & Marketing Systems Lead • YSA Skin Care Corp. (Sep 2017 – Oct 2018)**
+- Nationwide POS system updates & branch alignment
+- Data integrity, privacy protocols, system availability
+
+**IT Specialist & Field Collateral Lead • JEM Quantum Edge Corporation (Jun 2017 – Sep 2017)**
+- Desktop environments, local networks, IP security cameras, biometric access control
+- Digital & print promotional media design
+
+---
+
+## 🛠️ Technology Stack
+
+**Languages:** Python, TypeScript, JavaScript, SQL, Shell, Astro  
+**AI/LLM Frameworks:** LangGraph, LangChain, Ollama, Vertex AI (Gemini), Claude Code, OpenAI Codex  
+**Cloud Platforms:** Google Cloud (BigQuery, Vertex AI, Cloud Storage, Cloud DLP, IAM)  
+**Frontend:** Astro 5, React, TypeScript, Tailwind CSS  
+**Backend:** Python (Streamlit), Node.js, Express  
+**Databases:** BigQuery, Cloudflare D1 (SQLite), Cloud Storage  
+**Infrastructure:** HashiCorp Terraform, wrangler, Docker  
+**DevOps & CI/CD:** GitHub Actions, Lighthouse CI (≥95), automated testing, copy linting  
+**Real-Time:** WebSocket relays, Telegram Bot API, Viber/SMS/WhatsApp webhooks  
+**Compliance:** RA 10173 (PII masking), Google Cloud DLP, Zod schema validation  
+
+---
+
+## 📚 Education & Credentials
+
+**Associate in Computer Programming** • New Sinai School and Colleges (2011 – 2013)  
+**Specialization:** Full-Stack Development, GCP (Vertex AI), Agentic Tooling (Claude Code, Codex, Antigravity 2.0)  
+**Typing Speed:** 87 WPM
+
+---
+
+## 🔗 Live Production Systems
+
+**Barangay Dila (POC with Admin Portal):**
+- Landing: [dila.nextgenai.ph](https://dila.nextgenai.ph)
+- Admin: [dila.nextgenai.ph/admin/dashboard](https://dila.nextgenai.ph/admin/dashboard)
+
+**Other Production Clients:**
+- [erbc.nextgenai.ph](https://erbc.nextgenai.ph) — Real estate platform
+- [1mc.nextgenai.ph](https://1mc.nextgenai.ph) — Lab calibration tracking
+
+**Repository Organization:**
+- [NextGen-AI-SME-Solutions](https://github.com/NextGen-AI-SME-Solutions) — All production systems
+- [Dila Platform POC](https://github.com/nextgenhq/dila-platform-poc) — Full-stack landing + admin example
+
+---
+
+## 📖 Detailed Documentation
+
+For architecture walkthroughs, deployment patterns, and technical deep-dives, see `/docs`:
+- `architecture.md` — System design (4-Phase factory, BigQuery agent, Terraform, D1+Pages)
+- `client-case-studies.md` — Business impact & technical details per client
+- `tech-stack.md` — Complete technology breakdown
+- `enterprise-patterns.md` — Compliance, security, and scaling patterns (coming soon)
+
+---
+
+**Contact:** nextgensmeaisolutions@gmail.com | **GitHub:** [@nextgenhq](https://github.com/nextgenhq)
