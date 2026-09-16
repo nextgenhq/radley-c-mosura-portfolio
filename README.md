@@ -162,7 +162,7 @@ Live Site: https://{slug}.nextgenai.ph (Cloudflare Pages + D1)
 
 ## 🏢 Professional Background
 
-**Founder & CTO/CMO • NextGen AI Solutions (2024 – Present)**
+**Founder & CTO/CMO • NextGen AI Solutions (Jan 2025 – July 2026)**
 - Architected 4-phase autonomous SME AI factory
 - Built enterprise BigQuery agent + LangGraph pipeline
 - Deployed 4 production SaaS clients across verticals
